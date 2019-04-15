@@ -19,3 +19,7 @@ Route::get('/daftarBSU', function () {
     return view('daftar/daftarBSU');
 });
 
+Route::get('/daftarNasabah', function () {
+    return view('daftar/daftarNasabah');
+});
+

@@ -27,6 +27,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <style>
 
+
 </style>
 </head>
 
@@ -173,10 +174,10 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
 
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" id="gambar1" style="background-image: url('img/videoku.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Fully Responsive Design</h2>
-          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+          <h2>Video Profil Perusahaan</h2>
+          <p class="lead mb-0">Kami akan segera meluncurkan video mengenai deskripsi perusahaan kami dan gambaran layanan yang dimiliki oleh perusahan kami</p>
         </div>
       </div>
       <div class="row no-gutters">
@@ -210,8 +211,8 @@
           </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="http://banksampahrumahharum.com/wp-content/uploads/2017/06/Bank-Sampah-Induk-Rumah-Harum-23.jpg" alt="">
-            <h5>Bapak Herman - BSI Rumah Harum Depok</h5>
+            <img class="img-fluid rounded-circle mb-3" style="width:200px; height:200px;"src="img/bsidepok.jpg" alt="">
+            <h5>BSI Rumah Harum Depok</h5>
             <p class="font-weight-light mb-0">"Memiliki 100 partner Bank Sampah Unit dengan nasabah mencapai 5000"</p>
           </div>
         </div>
@@ -261,7 +262,7 @@
               <br>
               <br>
               <div class="col-12 col-md-4">
-                <button  style="background-color:#03746a;border-color:#03746a;" class="btn btn-block btn-lg btn-primary">Calon Nasabah</button>
+                <a href="/daftarNasabah"><button  style="background-color:#03746a;border-color:#03746a;" class="btn btn-block btn-lg btn-primary">Calon Nasabah</button></a>
               </div>
             </div>
 
