@@ -38,7 +38,8 @@
     @media only screen and (max-width: 600px) {
         #gambar1{
         background-image: url('img/videokita.png');
-        width:380px;
+        position:relative;
+        width:100%;
         height: 350px;
 
         }
