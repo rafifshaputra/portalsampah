@@ -27,6 +27,22 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <style>
 
+    @media only screen and (min-width: 1000px) {
+            #gambar1{
+            background-image: url('img/videoku.jpg');
+            height: 500px;
+
+            }
+        }
+
+    @media only screen and (max-width: 600px) {
+        #gambar1{
+        background-image: url('img/videokita.png');
+        width:380px;
+        height: 350px;
+
+        }
+    }
 
 </style>
 </head>
@@ -174,12 +190,13 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
 
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" id="gambar1" style="background-image: url('img/videoku.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase" id="gambar1" ></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Video Profil Perusahaan</h2>
           <p class="lead mb-0">Kami akan segera meluncurkan video mengenai deskripsi perusahaan kami dan gambaran layanan yang dimiliki oleh perusahan kami</p>
         </div>
       </div>
+      <!--
       <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
@@ -195,6 +212,7 @@
         </div>
       </div>
     </div>
+-->
   </section>
 
   <!-- Testimonials -->
