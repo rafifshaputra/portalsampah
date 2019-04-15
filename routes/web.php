@@ -16,10 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('/daftarBSU', function () {
-    return view('daftar/daftarBSU');
+    return view('Daftar/daftarBSU');
 });
 
 Route::get('/daftarNasabah', function () {
-    return view('daftar/daftarNasabah');
+    return view('Daftar/daftarNasabah');
 });
 
