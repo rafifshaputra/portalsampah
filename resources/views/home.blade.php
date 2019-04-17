@@ -204,10 +204,12 @@
 
       <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-color:RGBA(42,46,47,0.9);">
-        <div class="container">
+        <div  >
+            <div class="container" style="padding-left:3%;padding-top:20px;padding-bottom:20px;">
             <center>
-            <div style="padding-top:20px;padding-bottom:20px;"class="fb-page" data-href="https://www.facebook.com/portalsampah/" data-tabs="timeline,events" data-width="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/portalsampah/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/portalsampah/">Portal Sampah</a></blockquote></div>        </div>
+            <div class="fb-page" data-href="https://www.facebook.com/portalsampah/" data-tabs="timeline,events" data-width="390" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/portalsampah/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/portalsampah/">Portal Sampah</a></blockquote></div>        </div>
             </center>
+            </div>
         </div>
         <div class="col-lg-6 my-auto showcase-text">
           <h2>Facebook Page</h2>
