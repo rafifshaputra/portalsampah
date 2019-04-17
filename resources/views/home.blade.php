@@ -43,6 +43,10 @@
         height: 350px;
 
         }
+
+
+
+
     }
 
 </style>
@@ -197,14 +201,20 @@
           <p class="lead mb-0">Kami akan segera meluncurkan video mengenai deskripsi perusahaan kami dan gambaran layanan yang dimiliki oleh perusahan kami</p>
         </div>
       </div>
-      <!--
+
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        <div class="col-lg-6 text-white showcase-img" style="background-color:RGBA(42,46,47,0.9);">
+        <div class="container">
+            <center>
+            <div style="padding-left:5%;padding-top:20px;padding-bottom:20px;border-radius"class="fb-page" data-href="https://www.facebook.com/portalsampah/" data-tabs="timeline,events" data-width="380" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/portalsampah/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/portalsampah/">Portal Sampah</a></blockquote></div>        </div>
+            </center>
+        </div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          <h2>Facebook Page</h2>
+          <p class="lead mb-0">Kami memiliki fanspage difacebook yang membagikan mengenai informasi pengelolaan sampah, kabar terkini mengenai aplikasi dan kegiatan kami. Bantu kami dengan memberikan <strong>like </strong> dan <strong>follow</strong> terhadap fanspage kami ya!</p>
         </div>
       </div>
+      <!--
       <div class="row no-gutters">
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
@@ -212,6 +222,7 @@
           <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
         </div>
       </div>
+
     </div>
 -->
   </section>
@@ -261,33 +272,22 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Memiliki ketertarikan? Daftar aja dulu!</h2>
+          <h2 class="mb-4">Ingin membantu pengelolaan sampah? <br>Isi data dibawah ini yuk!</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            Saya adalah.....
-            <br>
-            <br>
-            <div class="form-row">
-              <div class="col-12 col-md-4">
-                <button style="background-color:#03746a;border-color:#03746a;" class="btn btn-block btn-lg btn-primary">Pengurus BSI</button>
-              </div>
-              <br>
-              <br>
-              <br>
-              <div class="col-12 col-md-4">
-                   <a href="/daftarBSU"> <button style="background-color:#03746a;border-color:#03746a;" class="btn btn-block btn-lg btn-primary">Pengurus BSU</button></a>
-              </div>
-              <br>
-              <br>
-              <br>
-              <div class="col-12 col-md-4">
-                <a href="/daftarNasabah"><button  style="background-color:#03746a;border-color:#03746a;" class="btn btn-block btn-lg btn-primary">Calon Nasabah</button></a>
-              </div>
-            </div>
+                @if(session('status')=="Berhasil")
+                <div class="alert alert-success alert-dismissible">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Success!</strong> data berhasil ditambahkan ke dalam sistem.
+                </div>
+                @endif
+
 
         </div>
       </div>
     </div>
+
+
   </section>
 
   <!-- Footer -->
@@ -337,6 +337,8 @@
     </div>
   </footer>
 
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v3.2&appId=691542544386446&autoLogAppEvents=1"></script>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

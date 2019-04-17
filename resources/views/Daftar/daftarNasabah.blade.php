@@ -42,38 +42,53 @@
             </div>
         </nav>
     <div class="container" id="container-form">
-        <form>
+        @if(session('status')=="Berhasil")
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Success!</strong> data berhasil ditambahkan ke dalam sistem.
+        </div>
+        @endif
+        <form action="/" method="post">
+            {{ csrf_field() }}
                 <fieldset>
-                  <legend><b>Daftar Calon Nasabah</b></legend>
                   <div class="form-group row">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Nama</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="namaBSU" required>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="nama" required>
                   </div>
                   <div class="form-group">
-                        <label for="exampleInputEmail1">Alamat Email</label>
+                        <label for="exampleInputEmail1">Email</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" name="alamatEmail" aria-describedby="emailHelp" required>
                         <small id="emailHelp" class="form-text text-muted">*Kami tidak akan menyebar alamat email, hanya digunakan untuk validasi data</small>
 
                     </div>
+                    <div class="jumbotron" style="background-color: RGBA(0,0,0,.20);">
+                        <label for="exampleInputEmail1"><b>Alamat Rumah</b></label>
+                        <div class="form-group">
+                        <label for="exampleInputEmail1">Kelurahan</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kelurahan" required>
 
-                  <div class="form-group">
-                    <label for="exampleTextarea">Alamat Rumah</label>
-                    <textarea class="form-control" id="exampleTextarea" name="alamatRumah" rows="3" required></textarea>
-                    <small id="emailHelp" class="form-text text-muted">*Jika tidak ingin menyebutkan lengkap, setidaknya tuliskan Kecamatan, Kelurahan, dan kabupaten/kota. Alamat digunakan untuk estimasi pembukaan Bank Sampah didaerah tersebut</small>
+                        <label for="exampleInputEmail1">Kecamatan</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kecamatan" required>
+                        </div>
 
-                  </div>
+                        <div class="form-group">
+                        <label for="exampleInputEmail1">Kode Pos</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kodePos" required>
+                        </div>
+                        <small id="emailHelp" class="form-text text-muted">*Alamat ini digunakan untuk diberikan informasi Bank Sampah terdekat atau untuk estimasi pengajuan pembukaan Bank Sampah baru didaerah tersebut</small>
+                    </div>
 
                   <div class="form-group">
                     <label for="exampleTextarea">Tanggapan/Saran</label>
-                    <textarea class="form-control" id="exampleTextarea" name="alamatRumah" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleTextarea" name="tanggapanBox" rows="5"></textarea>
                   </div>
-
+                  <small id="emailHelp" class="form-text text-muted">*Tanggapan terkait aplikasi yang dikembangkan atau ajukan pembukaan Bank Sampah</small>
                   </fieldset>
 
-
-                  <button style="border-color:#03746a;background-color:#03746a;margin-left:40%" type="submit" class="btn btn-primary">Submit</button>
+                  <br>
+                  <button style="border-color:#03746a;background-color:#03746a;" type="submit" class="btn btn-primary" >Submit</button>
 
                 </fieldset>
               </form>

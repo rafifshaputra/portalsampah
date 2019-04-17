@@ -23,3 +23,4 @@ Route::get('/daftarNasabah', function () {
     return view('Daftar/daftarNasabah');
 });
 
+Route::post('/daftarNasabah', 'nasabahController@tambahNasabah');
