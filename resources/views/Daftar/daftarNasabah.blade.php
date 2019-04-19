@@ -71,6 +71,7 @@
             <strong>Success!</strong> data berhasil ditambahkan ke dalam sistem.
         </div>
         @endif
+        <p style="color:gray;">*Form ini ditujukan untuk anda yang berminat untuk mendukung pengelolaan sampah plastik di Indonesia menjadi lebih baik</p>
         <form action="/memproses-data" method="post">
             {{ csrf_field() }}
                 <fieldset>
