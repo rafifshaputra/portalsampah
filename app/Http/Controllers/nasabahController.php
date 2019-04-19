@@ -52,27 +52,23 @@ class nasabahController extends Controller
             $chart3 = Charts::database(nasabah::all(), 'bar', 'highcharts')
             ->Title("Demografi Domisili Responden")
             ->elementLabel("Total")
-            ->dimensions( 250, 350)
+            ->dimensions( 350, 350)
             ->responsive(false)
             ->groupBy('domisili');
 
             $chart4 = Charts::database(nasabah::all(), 'bar', 'highcharts')
             ->Title("Pendapat PortalSampah Membantu")
             ->elementLabel("Total")
-            ->dimensions( 250, 350)
+            ->dimensions( 450, 350)
             ->responsive(false)
             ->groupBy('membantu');
 
             $chart5 = Charts::database(nasabah::all(), 'bar', 'highcharts')
             ->Title("Pendapat Akan Menggunakan PortalSampah")
             ->elementLabel("Total")
-            ->dimensions( 250, 350)
+            ->dimensions( 350, 350)
             ->responsive(false)
             ->groupBy('menggunakan');
-
-
-
-
 
         $totalResponden = DB::table('nasabahs')->count();
 

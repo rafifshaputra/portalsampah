@@ -60,8 +60,8 @@
             <div class="right-nav" style=" align:120px;float:right;font-size:15px;padding-top:2px;">
                 <div class=right-content >
                     <div style="padding-right:10px;float:left;">
-                    <a href="#" class="btn btn-default btn-sm" style="background-color:#EA4764;color:white;font-size:15px;border-radius: 25px;width:100px;" >
-                        Log out
+                    <a href="/" class="btn btn-default btn-sm" style="background-color:#EA4764;color:white;font-size:15px;border-radius: 25px;width:150px;" >
+                        Landing Page
                     </a>
                    </div>
 

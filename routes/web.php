@@ -19,10 +19,10 @@ Route::get('/daftarBSU', function () {
     return view('Daftar/daftarBSU');
 });
 
-Route::get('/daftarNasabah', function () {
+Route::get('/form-minat', function () {
     return view('Daftar/daftarNasabah');
 });
 
-Route::post('/daftarNasabah', 'nasabahController@tambahNasabah');
+Route::post('/memproses-data', 'nasabahController@tambahNasabah');
 Route::get('/dashboard-27419','nasabahController@tampilGrafik' );
 

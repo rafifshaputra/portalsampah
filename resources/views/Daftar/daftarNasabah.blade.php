@@ -71,7 +71,7 @@
             <strong>Success!</strong> data berhasil ditambahkan ke dalam sistem.
         </div>
         @endif
-        <form action="/daftarNasabah" method="post">
+        <form action="/memproses-data" method="post">
             {{ csrf_field() }}
                 <fieldset>
                   <div class="form-group row">
@@ -127,17 +127,18 @@
                         <label for="exampleInputEmail1"><b>Alamat Rumah</b></label>
                         <div class="form-group">
                         <label for="exampleInputEmail1">Kelurahan</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kelurahan" required>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kelurahan" >
 
                         <label for="exampleInputEmail1">Kecamatan</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kecamatan" required>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kecamatan" >
                         </div>
 
                         <div class="form-group">
                         <label for="exampleInputEmail1">Kode Pos</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kodePos" required>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kodePos" >
                         </div>
-                        <small id="emailHelp" class="form-text text-muted">*Alamat ini digunakan untuk diberikan informasi Bank Sampah terdekat atau untuk estimasi pengajuan pembukaan Bank Sampah baru didaerah tersebut</small>
+                        <small id="emailHelp" class="form-text text-muted">*Alamat ini digunakan untuk diberikan informasi Bank Sampah terdekat atau untuk estimasi pengajuan pembukaan Bank Sampah baru didaerah tersebut.
+                        <br>Namun, boleh dikosongkan.</small>
                     </div>
 
 

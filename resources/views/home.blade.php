@@ -290,7 +290,7 @@
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                 <center>
               <div class="col-12 col-md-3">
-               <a href="/daftarNasabah"> <button  class="btn btn-block btn-lg btn-primary" style="background-color:#03746a;border-color:#03746a;">Isi Data</button></a>
+               <a href="/form-minat"> <button  class="btn btn-block btn-lg btn-primary" style="background-color:#03746a;border-color:#03746a;">Form Minat</button></a>
               </div>
             </center>
         </div>
