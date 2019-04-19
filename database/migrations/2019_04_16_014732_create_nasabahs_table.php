@@ -16,8 +16,15 @@ class CreateNasabahsTable extends Migration
         Schema::create('nasabahs', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('nama',128);
-            $table->string('email',128);
-            $table->string('alamatRumah',255);
+            $table->string('kontak',128);
+            $table->string('usia',255);
+            $table->string('pekerjaan',255);
+            $table->string('kelurahan',255);
+            $table->string('kecamatan',255);
+            $table->string('kodePos',255);
+            $table->string('domisili',255);
+            $table->string('membantu',20);
+            $table->string('menggunakan',20);
             $table->string('tanggapanBox',255);
             $table->timestamps();
         });

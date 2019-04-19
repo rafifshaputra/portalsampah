@@ -44,9 +44,6 @@
 
         }
 
-
-
-
     }
 
 </style>
@@ -73,6 +70,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="#partner">Partner Kami</a>
               </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="#fbpage">Facebook Page</a>
+                  </li>
             <li class="nav-item">
               <a class="nav-link" href="#interest">Daftar</a>
             </li>
@@ -85,10 +85,18 @@
 
   <!-- Masthead -->
   <header class="masthead text-white text-center">
+
     <div class="overlay"></div>
     <div class="container">
+
       <div class="row">
         <div class="col-xl-9 mx-auto">
+        @if(session('status')=="Berhasil")
+        <div class="alert alert-success alert-dismissible">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Success!</strong> data berhasil ditambahkan ke dalam sistem.
+        </div>
+        @endif
           <h1 class="mb-5">Ingin berkontribusi untuk pengelolaan sampah lebih baik?</h1>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -96,7 +104,10 @@
             <div class="form-row">
               <div class="col-12 col-md-12 mb-4 mb-md-0">
                <a href="#interest"> <button  style="background-color:#03746a;border-color:#03746a" class="btn btn-block btn-lg btn-primary">Ayo Bergabung Bersama Kami!</button></a>
-              </div>
+               <br>
+               <a href="#fbpage"> <button  class="btn btn-block btn-lg btn-primary">Like FB Page Kami</button></a>
+
+            </div>
             </div>
         </div>
       </div>
@@ -169,7 +180,7 @@
                 </div>
                 <h3>Layanan Bantuan</h3>
                 <p class="lead mb-0">
-                Kami membuka layanan bantuan dari pukul 06.00-09.00 yang siap membantu jika terdapat pertanyaan
+                Kami membuka layanan bantuan dari pukul 06.00-21.00 yang siap membantu jika terdapat pertanyaan
                 atau permasalahan
                 </p>
             </div>
@@ -202,8 +213,8 @@
         </div>
       </div>
 
-      <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-color:RGBA(42,46,47,0.9);">
+      <div class="row no-gutters" >
+        <div id="fbpage" class="col-lg-6 text-white showcase-img" style="background-color:RGBA(42,46,47,0.9);">
         <div  >
             <div class="container" style="padding-left:3%;padding-top:20px;padding-bottom:20px;">
             <center>
@@ -277,14 +288,11 @@
           <h2 class="mb-4">Ingin membantu pengelolaan sampah? <br>Isi data dibawah ini yuk!</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                @if(session('status')=="Berhasil")
-                <div class="alert alert-success alert-dismissible">
-                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                    <strong>Success!</strong> data berhasil ditambahkan ke dalam sistem.
-                </div>
-                @endif
-
-
+                <center>
+              <div class="col-12 col-md-3">
+               <a href="/daftarNasabah"> <button  class="btn btn-block btn-lg btn-primary" style="background-color:#03746a;border-color:#03746a;">Isi Data</button></a>
+              </div>
+            </center>
         </div>
       </div>
     </div>

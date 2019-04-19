@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <title>PortalSampah</title>
 
+  <link rel="stylesheet" href="css/daftarNasabah.css">
   <!-- Bootstrap core CSS -->
   <link href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -29,6 +30,28 @@
 #container-form{
     padding-top:20px;
 }
+
+@import "compass/css3";
+
+#toggle {
+  display: none;
+}
+
+#toggle:target {
+  display: block;
+}
+
+#toggle:target + .close {
+  display: block;
+}
+
+.close {
+  font-size:16px;
+  color:red;
+  float:left;
+  display: none;
+}
+
 </style>
 </head>
 
@@ -48,7 +71,7 @@
             <strong>Success!</strong> data berhasil ditambahkan ke dalam sistem.
         </div>
         @endif
-        <form action="/" method="post">
+        <form action="/daftarNasabah" method="post">
             {{ csrf_field() }}
                 <fieldset>
                   <div class="form-group row">
@@ -58,11 +81,48 @@
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="nama" required>
                   </div>
                   <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" name="alamatEmail" aria-describedby="emailHelp" required>
-                        <small id="emailHelp" class="form-text text-muted">*Kami tidak akan menyebar alamat email, hanya digunakan untuk validasi data</small>
+                        <label for="exampleInputEmail1">Kontak (Email/No hp)</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" name="kontak" aria-describedby="emailHelp" required>
+                        <small id="emailHelp" class="form-text text-muted">*Kami tidak akan menyebar data kontak ini, hanya digunakan untuk validasi data responden</small>
 
+                  </div>
+                  <div class="form-group">
+                        <label for="exampleSelect1">Usia</label>
+                        <select class="form-control" id="exampleSelect1" name="usia">
+                            <option>16 - 25 tahun</option>
+                            <option>25 - 30 tahun</option>
+                            <option>30 - 35 tahun</option>
+                            <option>> 35 tahun </option>
+                        </select>
                     </div>
+
+                    <div class="form-group">
+                            <label for="exampleSelect1">Pekerjaan</label>
+                            <select class="form-control" id="exampleSelect1" name="pekerjaan">
+                                <option>Mahasiswa/Pelajar</option>
+                                <option>Karyawan Swasta</option>
+                                <option>PNS</option>
+                                <option>Pengusaha</option>
+                                <option>Ibu Rumah Tangga </option>
+                                <option>Lainnya</option>
+                            </select>
+                        </div>
+
+                    <div class="form-group">
+                            <label for="exampleSelect1">Domisili</label>
+                            <select class="form-control" id="exampleSelect1" name="domisili">
+                                <option>Jabodetabek</option>
+                                <option>Jawa Barat (Non Jabodetabek)</option>
+                                <option>Jawa Tengah</option>
+                                <option>Jawa Timur</option>
+                                <option>Sumatera</option>
+                                <option> Kalimantan</option>
+                                <option>Bali</option>
+                                <option> Sulawesi</option>
+                                <option> Lainnya </option>
+                            </select>
+                        </div>
+
                     <div class="jumbotron" style="background-color: RGBA(0,0,0,.20);">
                         <label for="exampleInputEmail1"><b>Alamat Rumah</b></label>
                         <div class="form-group">
@@ -80,6 +140,64 @@
                         <small id="emailHelp" class="form-text text-muted">*Alamat ini digunakan untuk diberikan informasi Bank Sampah terdekat atau untuk estimasi pengajuan pembukaan Bank Sampah baru didaerah tersebut</small>
                     </div>
 
+
+                        <h4>Memperkenalkan <span style="color:#03746a;">PortalSampah!</span> </h4>
+                        <p> Sebuah platform manajemen bank sampah </p>
+                        <a href="#toggle">Tampilkan deskripsi lengkap</a>
+                        <p id="toggle" align="justify">
+                        PortalSampah adalah sebuah platform yang mempermudah proses pada ekosistem Bank Sampah. Saat ini, Bank Sampah masih bekerja secara
+                            manual tanpa ada data pengumpulan yang tercatat dengan jelas.  Menggunakan PortalSampah, Bank Sampah akan memiliki pencatatan data transaksi beserta terdapat laporan data yang terstruktur.
+                             Selain itu, efektivitas dan efisiensi akan meningkat karena seluruh proses dari Nasabah, Bank Sampah Unit (BSU), Bank Sampah Induk (BSI) <strong> terintegrasi</strong>,
+                             yaitu ketika transaksi dilakukan maka akan otomatis tecatat di tiga data pihak tersebut. Untuk nasabah rumah tangga , mereka juga dapat mengakses data transaksi (termasuk saldo) secara real time dan dapat menukarkan saldo sampahnya ke bentuk lain
+                            seperti GoPay, OVO, Token Listrik, Pulsa, dll.
+                        </p>
+                       <a href="#toogle" class="close">Tutup deskripsi</a></span>
+
+                    <br>
+                    <br>
+                    <br>
+                    <div class="form-group">
+                            <label >Menurut anda, apakah PortalSampah membantu seluruh pihak yang terlibat pada Bank Sampah beserta membantu proses pengelolaannya?</label>
+                            <ul class='likert'>
+                              <li>
+                                <input type="radio" name="membantu" value="sangat tidak membantu">
+                                <label>Sangat Tidak Membantu</label>
+                              </li>
+                              <li>
+                                <input type="radio" name="membantu" value="tidak membantu">
+                                <label>Tidak Membantu</label>
+                              </li>
+                              <li>
+                                <input type="radio" name="membantu" value="biasa saja">
+                                <label>Biasa saja</label>
+                              </li>
+                              <li>
+                                <input type="radio" name="membantu" value="membantu">
+                                <label>Membantu</label>
+                              </li>
+                              <li>
+                                <input type="radio" name="membantu" value="sangat membantu">
+                                <label>Sangat Membantu</label>
+                              </li>
+                            </ul>
+                    </div>
+
+                    <div class="form-group">
+                            <label for="exampleTextarea">Jika anda nasabah Bank Sampah, apakah anda akan menggunakan atau menyarankan penggunaan PortalSampah?</label>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="menggunakan" id="optionsRadios1" value="Ya" checked="">
+                                Ya
+                                </label>
+                            </div>
+                            <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="menggunakan" id="optionsRadios2" value="Tidak">
+                                Tidak
+                                </label>
+                            </div>
+                        </div>
+
                   <div class="form-group">
                     <label for="exampleTextarea">Tanggapan/Saran</label>
                     <textarea class="form-control" id="exampleTextarea" name="tanggapanBox" rows="5"></textarea>
@@ -88,7 +206,9 @@
                   </fieldset>
 
                   <br>
+                  <center>
                   <button style="border-color:#03746a;background-color:#03746a;" type="submit" class="btn btn-primary" >Submit</button>
+                  </center>
 
                 </fieldset>
               </form>

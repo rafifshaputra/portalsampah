@@ -24,3 +24,5 @@ Route::get('/daftarNasabah', function () {
 });
 
 Route::post('/daftarNasabah', 'nasabahController@tambahNasabah');
+Route::get('/dashboard-27419','nasabahController@tampilGrafik' );
+
