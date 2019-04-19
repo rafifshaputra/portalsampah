@@ -56,7 +56,7 @@
     <header>
 
         <nav  class ="shadow-sm p-3 mb-5 bg-white rounded">
-            <a href="/back-office"><span style="font-size:28px;color:#2A2E43;">Dashboard</span></a>
+            <a href="/dashboard-27419"><span style="font-size:28px;color:#2A2E43;">Dashboard</span></a>
             <div class="right-nav" style=" align:120px;float:right;font-size:15px;padding-top:2px;">
                 <div class=right-content >
                     <div style="padding-right:10px;float:left;">
