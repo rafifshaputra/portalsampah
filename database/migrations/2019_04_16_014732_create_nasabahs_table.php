@@ -26,6 +26,7 @@ class CreateNasabahsTable extends Migration
             $table->string('membantu',20);
             $table->string('menggunakan',20);
             $table->string('tanggapanBox',255);
+            $table->string('keren',255);
             $table->timestamps();
         });
     }

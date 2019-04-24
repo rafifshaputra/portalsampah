@@ -52,6 +52,13 @@
   display: none;
 }
 
+@media only screen and (min-width: 1200px) {
+        .yt{
+            width:500px;
+            height:350px;
+        }
+    }
+
 </style>
 </head>
 
@@ -128,23 +135,25 @@
                         <label for="exampleInputEmail1"><b>Alamat Rumah</b></label>
                         <div class="form-group">
                         <label for="exampleInputEmail1">Kelurahan</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kelurahan" >
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kelurahan" required>
 
                         <label for="exampleInputEmail1">Kecamatan</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kecamatan" >
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kecamatan" required>
                         </div>
 
                         <div class="form-group">
                         <label for="exampleInputEmail1">Kode Pos</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kodePos" >
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="kodePos" required>
                         </div>
                         <small id="emailHelp" class="form-text text-muted">*Alamat ini digunakan untuk diberikan informasi Bank Sampah terdekat atau untuk estimasi pengajuan pembukaan Bank Sampah baru didaerah tersebut.
-                        <br>Namun, boleh dikosongkan.</small>
+                        <br>Namun, jika ingin <strong>dikosongkan</strong> ditulis dengan " - " .</small>
                     </div>
 
 
                         <h4>Memperkenalkan <span style="color:#03746a;">PortalSampah!</span> </h4>
                         <p> Sebuah platform manajemen bank sampah </p>
+                        <iframe class="yt"  src="https://www.youtube.com/embed/VYjsxoIOxmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
                         <a href="#toggle">Tampilkan deskripsi lengkap</a>
                         <p id="toggle" align="justify">
                         PortalSampah adalah sebuah platform yang mempermudah proses pada ekosistem Bank Sampah. Saat ini, Bank Sampah masih bekerja secara
@@ -202,10 +211,12 @@
 
                   <div class="form-group">
                     <label for="exampleTextarea">Tanggapan/Saran</label>
-                    <textarea class="form-control" id="exampleTextarea" name="tanggapanBox" rows="5"></textarea>
+                    <textarea class="form-control" id="exampleTextarea" name="tanggapanBox" rows="5" required></textarea>
                   </div>
                   <small id="emailHelp" class="form-text text-muted">*Tanggapan terkait aplikasi yang dikembangkan atau ajukan pembukaan Bank Sampah</small>
                   </fieldset>
+
+
 
                   <br>
                   <center>
