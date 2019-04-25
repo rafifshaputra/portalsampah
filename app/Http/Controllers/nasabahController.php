@@ -25,7 +25,6 @@ class nasabahController extends Controller
                 'kelurahan'=>$input['kelurahan'],
                 'kodePos'=>$input['kodePos'],
                 'membantu'=>$input['membantu'],
-                'keren'=>$input['keren'],
                 'menggunakan'=>$input['menggunakan'],
                 'tanggapanBox'=>$input['tanggapanBox'],
             ]);
