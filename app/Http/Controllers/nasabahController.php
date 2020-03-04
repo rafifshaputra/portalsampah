@@ -74,4 +74,20 @@ class nasabahController extends Controller
 
         return view('dashboard', ['tidaksetuju'=>count($tidaksetuju),'setuju'=>count($setuju),'chart5'=>$chart5,'chart'=>$chart, 'chart2'=>$chart2, 'chart4'=>$chart4,'chart3'=>$chart3,'totalResponden'=>$totalResponden]);
     }
+
+    public function showPageNasabah(){
+        return view('/content/akun/kelolaAkun');
+    }
+
+    public function showDetailNasabah($username){
+        $akun = DB::table('users')->where('username',$username)->get()->first();
+        $listRole = ['Direktur','Staf Marketing', 'Staf SDM', 'Staf Produksi'];
+        return view('content/akun/detailAkun',['akun'=> $akun , 'listRole'=>$listRole]);
+    }
+
+    public function daftarNasabah(){
+        $nasabah = DB::table('nasabahs')->get();
+    	return view('Daftar/listNasabah',['nasabah' => $nasabah]);
+    }
+
 }

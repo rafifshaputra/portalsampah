@@ -31,12 +31,7 @@
             </div>
         </div>
 
-    <div class="column" >
-            <div class="card">
-                <h5> Total Bank Sampah</h5>
-                <h2>0</h2>
-            </div>
-        </div>
+
 
     <div class="column2" style=" border-style: solid;border-width: 2px;">
             {!! Charts::assets() !!}
