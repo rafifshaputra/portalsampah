@@ -60,6 +60,11 @@ iframe{
 .mobile{
     display:none
 }
+
+.mobile2{
+    display:none
+}
+
 @media screen and (max-width: 1000px) {
   .column {
     width: 100%;
@@ -69,6 +74,10 @@ iframe{
   }
 
   .desktop{
+      display:none;
+  }
+
+  .mobile2{
       display:none;
   }
 
@@ -89,12 +98,27 @@ iframe{
     width:33.33%
 }
 
+.column4{
+    flex: 50%;
+  padding: 5px;
+    float: left;
+
+  padding: 5px;
+    width:60%;
+}
+
+
 ul.a {
   list-style-position: outside;
 }
 button{
-    padding: 6px 15px;
+    padding: 15px 15px;
   width:50%;
+  font-size:32px;
+}
+button.but{
+    padding: 15px 15px;
+  width:100%;
   font-size:32px;
 }
 
@@ -213,11 +237,11 @@ button{
     </div>
 </div>
 
-<div class="mobile">
+<div class="mobile" id="mobile" >
     <nav class="navbar navbar-default" style="background-color:#3A7765;">
     <div class="container-fluid">
         <div class="navbar-header">
-        <a class="navbar-brand" href="#" style="color:white;font-size:28px;">TRAVELRAFIF</a>
+        <a class="navbar-brand" href="#" style="color:white;font-size:36px;">TRAVELRAFIF</a>
         </div>
 
     </div>
@@ -250,7 +274,7 @@ button{
     <br>
 
     <div class="head" style="padding-left:3%;">
-        <div style="font-size:42px"><b> Klapa Resort</b><img style="padding-left:1%;"src="https://imgur.com/jTq0RbZ.png" width="150px;"><br></div><br>
+        <div style="font-size:42px"><b>Horison Ultima Bekasi</b><img style="padding-left:1%;"src="https://imgur.com/jTq0RbZ.png" width="150px;"><br></div><br>
         <b><span style="font-size:36px"> <img src="https://imgur.com/XW23AfN.png" alt="Mountains" style="width:35px">
             Lokasi</b></span>
         <div style="padding-top:1%; font-size:32px;"> Jalan Uluwatu 123. Bekasi Utara. Jakarta. 17610 </div><br>
@@ -268,26 +292,135 @@ button{
     <b><span style="font-size:36px">Kebijakan Hotel</span><br></b>
     <ul class="a">
         <li  style="padding:5px;font-size:32px;"> Check-in mulai dari jam 14.00</li>
+        <li  style="padding:5px;font-size:32px;"> Check-out maksimal jam 12.00</li>
         <li  style="padding:5px;font-size:32px;"> Membawa identitas </li>
         <li  style="padding:5px;font-size:32px;"> Deposit Rp100.000</li>
     </ul>
     <br>
     <br>
     <br>
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <hr>
 
-
-
     <nav class="shadow-lg navbar fixed-bottom navbar-light rounded" style="background-color:#EFECEC;padding-bottom:50px;padding-top:50px;">
-        <a class="navbar-brand" href="#" style="font-size:30px;">Hanya tersisa <span style="color:red;">3 kamar lagi! </span><span style="padding-left:20%;">
-            <button> Lihat Kamar </button>
+        <a class="navbar-brand" href="#" style="font-size:32px;">Hanya tersisa <span style="color:red;">3 kamar lagi! </span><span style="padding-left:15%;">
+            <button onclick="myFunction();"> Lihat Kamar </button>
         </span><br></a>
       </nav>
 </div>
+</div>
+
+<div class="mobile2" id="mobile2" >
+    <nav class="navbar navbar-default" style="background-color:#3A7765;">
+        <div class="container-fluid">
+            <div class="navbar-header" >
+                <div class="rows">
+                <div class="col-sm-2" style="padding:15px;">
+                 <button onclick="myFunction()">
+                 <img src="https://imgur.com/aksZmFn.png" width="60px;">
+                 </button>
+                </div>
+                <div class="col-sm-10" style="padding:5px;">
+
+                        <span style="color:white;font-size:38px;"><b>Horison Ultima Bekasi</b></span><br>
+                        <span style="font-size:32px;color:white;">Bekasi, Jawa Barat</span>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+    <div class="rows" style="background-color:white;padding:15px;border-radius:10px;">
+        <div style="width:500px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
+        <span><b>Check-in:</b><br></span>
+        <span style="color:#3A7765;">{{  now()->toDateString('Y-m-d') }}</span>
+        </div>
+        <div style="bwidth:500px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding:5px;" class="column3">
+            <span><b>Durasi:</b><br></span>
+            <span style="color:#3A7765;">2 Malam</span>
+        </div>
+        <div style="width:500px;height:100px;border:1px solid #4A4A4A;font-size:32px;padding-bottom:15px;" class="column3">
+            <span><b>Jumlah Tamu:</b><br></span>
+            <span style="color:#3A7765;">2 Tamu</span>
+        </div>
+    </div>
+    <br>
+    <div class="contain" style="padding:25px;">
+        <div style="background-color:white;border-radius:15px;">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d8/0a/16/img-hotel.jpg" alt="Mountains" style="width:100%;height:300px">
+        </div>
+
+        <div style="padding:10px;background-color:white;">
+            <p style="font-size:45px;padding-top:2%;padding-left:4%;"><b>Deluxe Room</b><br>
+            <hr size="100">
+            </p>
+            <br>
+        </div>
+        <div style="padding:2px;background-color:white;">
+
+            <div class="rows" style="width:100%;padding-left:4%;"  >
+                <div class="column4" style="font-size:34px;">
+                    <b><p style="font-size:36px">Info Kamar </b> </p>
+                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Max 2 Tamu <br>
+                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Single Bed<br>
+                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> 23 sqm<br>
+                </div>
+
+                <div class="column4" style="font-size:34px;">
+                    <b><p style="font-size:36px">Layanan</b> </p>
+                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Without Breakfast <br>
+                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Non Refundable<br>
+                    <img src="https://imgur.com/K5sza9m.png" height="20px" width="20px"> Free Wifi<br>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <span class="navbar-brand" href="#" style="font-size:32px;padding-left:4%;">Hanya tersisa <span style="color:red;">3 kamar lagi! </span></span>
+            <br><br><br>
+            <div class="rows" >
+                <span style="font-size:36px;padding-left:4%;padding-top:2%">
+                    LIHAT DETAIL</span>
+                </span>
+                <span style="margin-left:35%">
+                    <button class="but"> Pesan Sekarang </button>
+                </span>
+
+            </div>
+        <BR>
+            <BR>
+        </div>
+<br>
+<br>
+
+</div>
+<br>
+
+<br>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+function myFunction() {
+  var x = document.getElementById("mobile");
+  var y = document.getElementById("mobile2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.display ="none"
+  } else {
+    y.style.display = "block";
+    x.style.display = "none";
+
+  }
+}
+
+</script>
 </body>
 <br>
 <br>
