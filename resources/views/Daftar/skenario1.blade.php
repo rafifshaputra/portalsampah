@@ -425,8 +425,8 @@ function myFunction() {
 }
 
 function imageChange(){
-    x="https://momento360.com/e/u/f1debe85b93f46c68f024c16246e69c0?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"
-    if(document.getElementById("myImage")!=x){
+    x="https://momento360.com/e/u/f1debe85b93f46c68f024c16246e69c0?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75";
+    if(document.getElementById("myImage").src!=x){
         document.getElementById('myImage').src=x;
         document.getElementById('imgcol1').src="https://imgur.com/WAyuF6k.png";
     }
