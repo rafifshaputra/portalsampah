@@ -430,7 +430,7 @@ function myFunction() {
 function selectSmall(){
     x= document.getElementById("imgcol1").src;
     if(x=="https://i.ibb.co/gtKZs6z/gambar.png"){
-        return "https://momento360.com/e/u/f1debe85b93f46c68f024c16246e69c0?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75";
+        return "https://panoraven.com/slider/kK1dNWcEZf";
 
     }
     else if (x=="https://i.ibb.co/0sL7gq4/gambar1.png" ){
@@ -460,7 +460,7 @@ function selectImage(){
     if(data=="https://momento360.com/e/u/9303891d183c47db90e91352a9b2969d?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"){
         document.getElementById('imgcol1').src="https://i.ibb.co/0sL7gq4/gambar1.png";
     }
-    else if(data=="https://momento360.com/e/u/f1debe85b93f46c68f024c16246e69c0?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"){
+    else if(data=="https://panoraven.com/slider/kK1dNWcEZf"){
         document.getElementById('imgcol1').src="https://i.ibb.co/gtKZs6z/gambar.png";
     }
 
