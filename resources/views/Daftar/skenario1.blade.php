@@ -86,7 +86,7 @@ iframe{
     padding:2px;
 }
 iframe{
-    height:70%;
+    height:50%;
 }
 
 .column3{
