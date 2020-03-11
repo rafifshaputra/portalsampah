@@ -86,7 +86,7 @@ iframe{
     padding:2px;
 }
 iframe{
-    height:50%;
+    height:70%;
 }
 
 .column3{
@@ -140,14 +140,14 @@ button.but{
             <div style="font-size:24px"><b> Klapa Resort</b><img style="padding-left:1%;"src="https://imgur.com/jTq0RbZ.png" width="100px;"><br></div>
             <div style="padding-top:1%; font-size:18px;"> Jalan Uluwatu 123. Bekasi Utara. Jakarta. 17610 </div><br>
         </div>
-        <iframe width="100%"
+        <iframe
+        width="100%"
         allowfullscreen="allowfullscreen"
             mozallowfullscreen="mozallowfullscreen"
             msallowfullscreen="msallowfullscreen"
             oallowfullscreen="oallowfullscreen"
             webkitallowfullscreen="webkitallowfullscreen"
-        src="https://momento360.com/e/u/da204c0643964d41adb8ff5b9faf52a4?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=73.31666666666668"> </iframe>
-
+        src="https://momento360.com/e/u/9303891d183c47db90e91352a9b2969d?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"></iframe>
     <br>
 
         <div class="rows" >
@@ -237,6 +237,7 @@ button.but{
     </div>
 </div>
 
+<!-- DATA UNTUK MOBILE HALAMAN AWAL -->
 <div class="mobile" id="mobile" >
     <nav class="navbar navbar-default" style="background-color:#3A7765;">
     <div class="container-fluid">
@@ -247,28 +248,28 @@ button.but{
     </div>
     </nav>
     <div class="contain" style="background-color:white;">
-        <iframe width="100%"
+        <iframe id="myImage" width="100%"
         allowfullscreen="allowfullscreen"
             mozallowfullscreen="mozallowfullscreen"
             msallowfullscreen="msallowfullscreen"
             oallowfullscreen="oallowfullscreen"
             webkitallowfullscreen="webkitallowfullscreen"
-        src="https://momento360.com/e/u/da204c0643964d41adb8ff5b9faf52a4?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=73.31666666666668"> </iframe>
+        src="https://momento360.com/e/u/9303891d183c47db90e91352a9b2969d?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
 
     <br>
-
         <div class="rows" >
             <div class="column">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d8/0a/16/img-hotel.jpg" alt="Snow" style="width:100%;">
+                <img id="imgcol1"onclick="imageChange()" src="https://imgur.com/0RM0qVR.png" alt="Snow" style="width:100%;height:180px;">
+            </div>
+
+            <div class="column">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d8/0a/16/img-hotel.jpg" alt="Forest" style="width:100%;height:180px;">
             </div>
             <div class="column">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d8/0a/16/img-hotel.jpg" alt="Forest" style="width:100%">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d8/0a/16/img-hotel.jpg" alt="Mountains" style="width:100%;height:180px;">
             </div>
             <div class="column">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d8/0a/16/img-hotel.jpg" alt="Mountains" style="width:100%">
-            </div>
-            <div class="column">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d8/0a/16/img-hotel.jpg" alt="Mountains" style="width:100%">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/09/d8/0a/16/img-hotel.jpg" alt="Mountains" style="width:100%;height:180px;">
             </div>
         </div>
     <br>
@@ -313,6 +314,9 @@ button.but{
       </nav>
 </div>
 </div>
+
+
+<!-- HALAMAN PEMESANAN KAMAR-->
 
 <div class="mobile2" id="mobile2" >
     <nav class="navbar navbar-default" style="background-color:#3A7765;">
@@ -418,6 +422,18 @@ function myFunction() {
     x.style.display = "none";
 
   }
+}
+
+function imageChange(){
+    x="https://momento360.com/e/u/f1debe85b93f46c68f024c16246e69c0?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"
+    if(document.getElementById("myImage")!=x){
+        document.getElementById('myImage').src=x;
+        document.getElementById('imgcol1').src="https://imgur.com/WAyuF6k.png";
+    }
+    else{
+        document.getElementById('myImage').src="https://momento360.com/e/u/9303891d183c47db90e91352a9b2969d?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75";
+        document.getElementById('imgcol1').src="https://imgur.com/0RM0qVR.png";
+    }
 }
 
 </script>
