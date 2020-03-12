@@ -370,44 +370,51 @@
                     allowfullscreen="true"
                     frameborder="0"
                     src="https://panoraven.com/slider/kK1dNWcEZf"> </iframe>
+                    <img data-u="thumb" src="https://i.ibb.co/gtKZs6z/gambar.png" />
+                </div>
+                <div>
+                    <iframe data-u="image" id="myImage" width="100%"
+                    allowfullscreen="true"
+                    frameborder="0"
+                    src="https://panoraven.com/embed/K82xvfeKyv"> </iframe>
+                    <img data-u="thumb" src="https://i.ibb.co/0sL7gq4/gambar1.png" />
+                </div>
+                <div>
+                    <iframe data-u="image" id="myImage" width="100%"
+                    allowfullscreen="true"
+                    frameborder="0"
+                    src="https://panoraven.com/embed/eDczBAJH2a"> </iframe>
                     <img data-u="thumb" src="https://i.ibb.co/0hgFCQ7/gambar3.png" />
                 </div>
                 <div>
-                    <img data-u="image" src="img/032.jpg" />
-                    <img data-u="thumb" src="img/032-s190x90.jpg" />
+                    <iframe data-u="image" id="myImage" width="100%"
+                    allowfullscreen="true"
+                    frameborder="0"
+                    src="https://panoraven.com/embed/qq4Okl2r2K"> </iframe>
+                    <img data-u="thumb" src="https://i.ibb.co/Pchrm5P/gambar4.png" />
                 </div>
                 <div>
-                    <img data-u="image" src="img/033.jpg" />
-                    <img data-u="thumb" src="img/033-s190x90.jpg" />
+                    <iframe data-u="image" id="myImage" width="100%"
+                    allowfullscreen="true"
+                    frameborder="0"
+                    src="https://panoraven.com/embed/HJeBQulSsg"> </iframe>
+                    <img data-u="thumb" src="https://i.ibb.co/FJcb7zV/gambar2.png" />
                 </div>
                 <div>
-                    <img data-u="image" src="img/034.jpg" />
-                    <img data-u="thumb" src="img/034-s190x90.jpg" />
+                    <iframe data-u="image" id="myImage" width="100%"
+                    allowfullscreen="true"
+                    frameborder="0"
+                    src="https://panoraven.com/embed/MCgfOhsV3l"> </iframe>
+                    <img data-u="thumb" src="https://i.ibb.co/BVwbCkP/lobiatas.png" />
                 </div>
                 <div>
-                    <img data-u="image" src="img/035.jpg" />
-                    <img data-u="thumb" src="img/035-s190x90.jpg" />
+                    <iframe data-u="image" id="myImage" width="100%"
+                    allowfullscreen="true"
+                    frameborder="0"
+                    src="https://panoraven.com/embed/Ko96Y0BEf0"> </iframe>
+                    <img data-u="thumb" src="https://i.ibb.co/9cfgKRd/20200307-232033.jpg" />
                 </div>
-                <div>
-                    <img data-u="image" src="img/036.jpg" />
-                    <img data-u="thumb" src="img/036-s190x90.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/037.jpg" />
-                    <img data-u="thumb" src="img/037-s190x90.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/038.jpg" />
-                    <img data-u="thumb" src="img/038-s190x90.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/039.jpg" />
-                    <img data-u="thumb" src="img/039-s190x90.jpg" />
-                </div>
-                <div>
-                    <img data-u="image" src="img/040.jpg" />
-                    <img data-u="thumb" src="img/040-s190x90.jpg" />
-                </div>
+
             </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">slideshow html</a>
             <!-- Thumbnail Navigator -->
             <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:140px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
