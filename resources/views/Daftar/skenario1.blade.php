@@ -359,12 +359,12 @@
     </div>
     </nav>
     <div class="contain" style="background-color:white;">
-        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:580px;overflow:hidden;visibility:hidden;">
+        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:1080px;overflow:hidden;visibility:hidden;">
             <!-- Loading Screen -->
             <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
                 <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
             </div>
-            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:480px;overflow:hidden;">
+            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:880px;overflow:hidden;">
                 <div>
                     <iframe data-u="image" id="myImage" width="100%"
                     allowfullscreen="true"
@@ -410,9 +410,9 @@
                 </div>
             </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">slideshow html</a>
             <!-- Thumbnail Navigator -->
-            <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:100px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
+            <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:200px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
                 <div data-u="slides">
-                    <div data-u="prototype" class="p" style="width:190px;height:90px;">
+                    <div data-u="prototype" class="p" style="width:250px;height:190px;">
                         <div data-u="thumbnailtemplate" class="t"></div>
                         <svg viewbox="0 0 16000 16000" class="cv">
                             <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
