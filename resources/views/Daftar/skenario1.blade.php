@@ -364,7 +364,7 @@
             <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
                 <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
             </div>
-            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:780px;overflow:hidden;">
+            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:760px;overflow:hidden;">
                 <div>
                     <iframe data-u="image" id="myImage" width="100%"
                     allowfullscreen="true"
@@ -410,9 +410,9 @@
                 </div>
             </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">slideshow html</a>
             <!-- Thumbnail Navigator -->
-            <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:150px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
+            <div data-u="thumbnavigator" class="jssort101" style="position:absolute;left:0px;bottom:0px;width:980px;height:140px;background-color:#000;" data-autocenter="1" data-scale-bottom="0.75">
                 <div data-u="slides">
-                    <div data-u="prototype" class="p" style="width:250px;height:140px;">
+                    <div data-u="prototype" class="p" style="width:250px;height:130px;">
                         <div data-u="thumbnailtemplate" class="t"></div>
                         <svg viewbox="0 0 16000 16000" class="cv">
                             <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
