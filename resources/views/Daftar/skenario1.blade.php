@@ -369,49 +369,49 @@
                     <iframe data-u="image" id="myImage" width="100%"
                     allowfullscreen="true"
                     frameborder="0"
-                    src="https://panoraven.com/slider/kK1dNWcEZf"> </iframe>
+                    src="https://momento360.com/e/u/f1debe85b93f46c68f024c16246e69c0?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
                     <img data-u="thumb" src="https://i.ibb.co/gtKZs6z/gambar.png" />
                 </div>
                 <div>
                     <iframe data-u="image" id="myImage" width="100%"
                     allowfullscreen="true"
                     frameborder="0"
-                    src="https://panoraven.com/embed/K82xvfeKyv"> </iframe>
+                    src="https://momento360.com/e/u/9303891d183c47db90e91352a9b2969d?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
                     <img data-u="thumb" src="https://i.ibb.co/0sL7gq4/gambar1.png" />
                 </div>
                 <div>
                     <iframe data-u="image" id="myImage" width="100%"
                     allowfullscreen="true"
                     frameborder="0"
-                    src="https://panoraven.com/embed/eDczBAJH2a"> </iframe>
+                    src="https://momento360.com/e/u/76892064d41c41a7bae6166758e2ab02?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
                     <img data-u="thumb" src="https://i.ibb.co/0hgFCQ7/gambar3.png" />
                 </div>
                 <div>
                     <iframe data-u="image" id="myImage" width="100%"
                     allowfullscreen="true"
                     frameborder="0"
-                    src="https://panoraven.com/embed/qq4Okl2r2K"> </iframe>
+                    src="https://momento360.com/e/u/55df697591334df5a53db4b3fa6ea9cd?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
                     <img data-u="thumb" src="https://i.ibb.co/Pchrm5P/gambar4.png" />
                 </div>
                 <div>
                     <iframe data-u="image" id="myImage" width="100%"
                     allowfullscreen="true"
                     frameborder="0"
-                    src="https://panoraven.com/embed/HJeBQulSsg"> </iframe>
+                    src="https://momento360.com/e/u/1f364de980484f27a39b836678131252?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
                     <img data-u="thumb" src="https://i.ibb.co/FJcb7zV/gambar2.png" />
                 </div>
                 <div>
                     <iframe data-u="image" id="myImage" width="100%"
                     allowfullscreen="true"
                     frameborder="0"
-                    src="https://panoraven.com/embed/MCgfOhsV3l"> </iframe>
+                    src="https://momento360.com/e/u/072df0420bfc4c69aea2c75310ef58de?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
                     <img data-u="thumb" src="https://i.ibb.co/BVwbCkP/lobiatas.png" />
                 </div>
                 <div>
                     <iframe data-u="image" id="myImage" width="100%"
                     allowfullscreen="true"
                     frameborder="0"
-                    src="https://panoraven.com/embed/Ko96Y0BEf0"> </iframe>
+                    src="https://momento360.com/e/u/0dc416b822404e459d5053a4f8b4083e?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
                     <img data-u="thumb" src="https://i.ibb.co/9cfgKRd/20200307-232033.jpg" />
                 </div>
 
