@@ -400,20 +400,7 @@
                     src="https://momento360.com/e/u/1f364de980484f27a39b836678131252?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
                     <img data-u="thumb" src="https://i.ibb.co/FJcb7zV/gambar2.png" />
                 </div>
-                <div>
-                    <iframe data-u="image" id="myImage" width="100%"
-                    allowfullscreen="true"
-                    frameborder="0"
-                    src="https://momento360.com/e/u/072df0420bfc4c69aea2c75310ef58de?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
-                    <img data-u="thumb" src="https://i.ibb.co/BVwbCkP/lobiatas.png" />
-                </div>
-                <div>
-                    <iframe data-u="image" id="myImage" width="100%"
-                    allowfullscreen="true"
-                    frameborder="0"
-                    src="https://momento360.com/e/u/0dc416b822404e459d5053a4f8b4083e?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
-                    <img data-u="thumb" src="https://i.ibb.co/9cfgKRd/20200307-232033.jpg" />
-                </div>
+
 
             </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">slideshow html</a>
             <!-- Thumbnail Navigator -->
