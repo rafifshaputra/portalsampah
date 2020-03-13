@@ -122,6 +122,48 @@ button.but{
   font-size:32px;
 }
 
+}h4 {
+    margin: 20px 10px 10px;
+}
+p {
+    margin: 10px;
+}
+
+#carousel-example-generic {
+    margin: 20px auto;
+    width: 100%;
+}
+
+#carousel-custom {
+    margin: 20px auto;
+    width: 100%;
+}
+#carousel-custom .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+}
+#carousel-custom .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+#carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+#carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+#carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
 }
     </style>
 </head>
@@ -247,31 +289,76 @@ button.but{
 
     </div>
     </nav>
+
     <div class="contain" style="background-color:white;">
-        <iframe id="myImage" width="100%"
-        allowfullscreen="allowfullscreen"
-            mozallowfullscreen="mozallowfullscreen"
-            msallowfullscreen="msallowfullscreen"
-            oallowfullscreen="oallowfullscreen"
-            webkitallowfullscreen="webkitallowfullscreen"
-        src="https://momento360.com/e/u/9303891d183c47db90e91352a9b2969d?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
 
-    <br>
-        <div class="rows" >
-            <div class="column">
-                <img id="imgcol1"onclick="imageChange()" src="https://i.ibb.co/gtKZs6z/gambar.png" alt="Snow" style="width:100%;height:180px;">
-            </div>
-            <div class="column">
-                <img id="imgcol3" onclick="imageChange3()" src="https://i.ibb.co/0hgFCQ7/gambar3.png" alt="Mountains" style="width:100%;height:180px;">
-            </div>
-            <div class="column">
-                <img id="imgcol4" onclick="imageChange4()"src="https://i.ibb.co/Pchrm5P/gambar4.png" alt="Mountains" style="width:100%;height:180px;">
-            </div>
-            <div class="column">
-                <img id="imgcol2" onclick="imageChange2()"src="https://i.ibb.co/FJcb7zV/gambar2.png" alt="Forest" style="width:100%;height:180px;">
-            </div>
-
+<div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+    <!-- Wrapper for slides -->
+    <div class='carousel-inner'>
+        <div class='carousel-item active' >
+            <iframe data-u="image" id="myImage" width="100%"
+            allowfullscreen="true"
+            frameborder="0"
+            src="https://momento360.com/e/u/f1debe85b93f46c68f024c16246e69c0?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
         </div>
+        <div class='carousel-item'>
+            <iframe data-u="image" id="myImage" width="100%"
+            allowfullscreen="true"
+            frameborder="0"
+            src="https://momento360.com/e/u/9303891d183c47db90e91352a9b2969d?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
+        </div>
+        <div class='carousel-item'>
+            <iframe data-u="image" id="myImage" width="100%"
+            allowfullscreen="true"
+            frameborder="0"
+            src="https://momento360.com/e/u/76892064d41c41a7bae6166758e2ab02?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
+        </div>
+
+        <div class='carousel-item'>
+            <iframe data-u="image" id="myImage" width="100%"
+            allowfullscreen="true"
+            frameborder="0"
+            src="https://momento360.com/e/u/55df697591334df5a53db4b3fa6ea9cd?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
+        </div>
+        <div class='carousel-item'>
+            <iframe data-u="image" id="myImage" width="100%"
+            allowfullscreen="true"
+            frameborder="0"
+            src="https://momento360.com/e/u/1f364de980484f27a39b836678131252?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
+        </div>
+        <div class='carousel-item'>
+            <iframe data-u="image" id="myImage" width="100%"
+            allowfullscreen="true"
+            frameborder="0"
+            src="https://momento360.com/e/u/072df0420bfc4c69aea2c75310ef58de?utm_campaign=embed&utm_source=other&utm_medium=other&heading=0&pitch=0&field-of-view=75"> </iframe>
+        </div>
+
+
+        <!-- Controls -->
+        <a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
+            <span class='glyphicon glyphicon-chevron-left'></span>
+        </a>
+        <a class='right carousel-control' href='#carousel-custom' data-slide='next'>
+            <span class='glyphicon glyphicon-chevron-right'></span>
+        </a>
+
+    </div>
+
+
+
+
+<!-- Indicators -->
+<ol class='carousel-indicators'>
+    <li data-target='#carousel-custom' data-slide-to='0' class='active'><img src='https://i.ibb.co/gtKZs6z/gambar.png' style="padding-left:5px;width:160px;height:150px" alt='' /></li>
+    <li data-target='#carousel-custom' data-slide-to='1'><img src='https://i.ibb.co/0sL7gq4/gambar1.png' style="padding-left:5px;width:160px;height:150px" alt='' /></li>
+    <li data-target='#carousel-custom' data-slide-to='2'><img src='https://i.ibb.co/0hgFCQ7/gambar3.png' style="padding-left:5px;width:160px;height:150px" alt='' /></li>
+    <li data-target='#carousel-custom' data-slide-to='3'><img src='https://i.ibb.co/Pchrm5P/gambar4.png'style="padding-left:5px;width:160px;height:150px" alt='' /></li>
+    <li data-target='#carousel-custom' data-slide-to='4'><img src='https://i.ibb.co/FJcb7zV/gambar2.png' style="padding-left:5px;width:160px;height:150px"alt='' /></li>
+    <li data-target='#carousel-custom' data-slide-to='5'><img src='https://i.ibb.co/BVwbCkP/lobiatas.png' style="padding-left:5px;width:160px;height:150px"alt='' /></li>
+
+</ol>
+</div>
+
     <br>
 
     <div class="head" style="padding-left:3%;">
